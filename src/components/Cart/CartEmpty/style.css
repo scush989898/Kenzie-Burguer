@@ -1,0 +1,28 @@
+.cartEmpty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.cartEmpty > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #333333;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.cartEmpty > h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #828282;
+  margin: 0;
+}

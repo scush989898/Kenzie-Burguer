@@ -1,0 +1,26 @@
+.logo_burguer_kenzie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 50%;
+  height: 35%;
+}
+.logo_burguer {
+  font-size: 28px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo_kenzie {
+  height: 50%;
+  font-size: 14px;
+  color: #eb5757;
+}
+
+@media (min-width: 1000px) {
+  .logo_burguer_kenzie {
+    justify-content: start;
+  }
+}
